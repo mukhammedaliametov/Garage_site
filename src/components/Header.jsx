@@ -13,11 +13,11 @@ const Header = () => {
     const serviceClick = () => setService(!service)
     return (
         <div className='sticky w-full top-0 bg-[#19243F]'>
-            <div className='max-w-[1224px] mx-auto px-[20px] xl:px-[30px] 2xl:px-0 flex items-center justify-between py-[20px]'>
+            <div className='max-w-[1224px] mx-auto px-[20px] md:px-[30px] 2xl:px-0 flex items-center justify-between py-[20px]'>
                 <a href='' className='pr-[40px]'>
                     <img src={Logo} alt="logo" width={80} />
                 </a>
-                <div className='hidden md:flex items-center gap-[20px]'> 
+                <div className='hidden md:flex items-center gap-[20px] font-plex'> 
                     <a href="" className='uppercase text-[16px] text-[#ffffff83] tracking-[1.2px] hover:text-white'>Home</a>
                     <a href="" className='uppercase text-[16px] text-[#ffffff83] tracking-[1.2px] hover:text-white'>About Us</a>
                     <a href="" className='uppercase text-[16px] text-[#ffffff83] tracking-[1.2px] hover:text-white'>Services</a>
@@ -40,7 +40,7 @@ const Header = () => {
                     <a href="" className='uppercase text-[16px] text-[#fff] tracking-[1.2px]'>Blog</a>
                     <FaGripLines onClick={closeNav} className='absolute bottom-0 justify-center w-full text-[26px] text-white ml-[-35px]' />
                 </div>
-                <div className='flex flex-col md:flex-row items-center'>
+                <div className='flex flex-col md:flex-row items-center font-plex'>
                     <img src={Phone} alt="phone" className='w-[40px]' />
                     <a href="#" className='hidden xl:block text-[16px] text-[#fff] tracking-[1.2px] font-semibold ml-2'>888 360 3517</a>
                     <a href="#" className='block xl:hidden md:text-[16px] text-[#fff] tracking-[1.2px] font-semibold ml-2 md:mt-2 text-[15px]'>Call Us Now</a>

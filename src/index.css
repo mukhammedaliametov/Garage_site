@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@100;200;300;400;500;600;700&display=swap');
 @import "tailwindcss";
+
+.bg-gradient{
+    background: linear-gradient(89.4deg, rgba(3, 14, 40, 0.89) 28.75%, rgba(0, 0, 0, 0) 89.57%);
+}
+
+@media(max-width: 1225px){
+  .bg-gradient{
+    background: linear-gradient(170.03deg, rgba(3, 14, 40, 0.81) 74.32%, rgba(3, 14, 40, 0) 117.33%);
+}
+}
+
+.font-plex{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.font-caveat {
+  font-family: 'Caveat', handwriting;
+}
