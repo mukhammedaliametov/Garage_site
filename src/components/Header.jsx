@@ -12,7 +12,7 @@ const Header = () => {
     const [service, setService] = useState(0);
     const serviceClick = () => setService(!service)
     return (
-        <div className='sticky w-full top-0 bg-[#19243F]'>
+        <div className='sticky w-full top-0 bg-[#19243F] z-999'>
             <div className='max-w-[1224px] mx-auto px-[20px] md:px-[30px] 2xl:px-0 flex items-center justify-between py-[20px]'>
                 <a href='' className='pr-[40px]'>
                     <img src={Logo} alt="logo" width={80} />
