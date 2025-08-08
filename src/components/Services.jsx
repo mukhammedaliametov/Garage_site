@@ -49,7 +49,7 @@ const Services = () => {
     },
     {
       img: Garage8,
-      title: "FULL-SERVICE COMMERCIAL GATE & GARAGE REPAIR",
+      title: "FULL-SERVICE COMMERCIAL GATE",
       bg: "bg-[#16233A]",
     },
     {
@@ -61,19 +61,18 @@ const Services = () => {
 
   return (
     <div>
-      <div className="max-w-[1200px] mx-auto text-center">
-        <h2 className="text-2xl md:text-[60px] md:mt-[20px] font-bold mb-2 font-plex">
+      <div className="max-w-[1200px] mx-auto px-[20px] text-center">
+        <h2 className="text-2xl md:text-[60px] my-[20px] font-bold font-plex">
           Los Angeles Garage Door <br /> Repair Services
         </h2>
-        <p className="text-blue-600 mb-8 font-plex italic font-semibold">
+        <p className="text-blue-600 mb-8 font-plex italic font-semibold px-[20px]">
           We fix all types and components of garage doors or gates
         </p>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[30px] max-w-[900px] mx-auto">
           {services.map((service, index) => (
             <div
               key={index}
-              className="relative group overflow-hidden rounded-md shadow-lg w-[300px]"
+              className="relative group overflow-hidden rounded-md shadow-lg w-[300px] mx-auto"
             >
               <img
                 src={service.img}
