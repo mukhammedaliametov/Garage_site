@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroForm = () => {
   return (
-    <div className="max-w-full absolute md:static left-0 top-[80%] right-0 w-full md:max-w-[380px] mx-auto bg-[#E5EFFF] shadow-lg px-[20px] xl:px-[30px] py-[8px] pb-[20px]">
+    <div className="max-w-full absolute md:static left-0 top-[110%] right-0 w-full md:max-w-[380px] mx-auto bg-[#E5EFFF] shadow-lg px-[20px] xl:px-[30px] py-[8px] pb-[20px]">
       <h2 className="text-[#2E73EC] text-[32px] font-bold text-center font-plex mb-[-10px]">
         Get Free Estimate
       </h2>
